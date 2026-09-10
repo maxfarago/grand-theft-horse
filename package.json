@@ -9,6 +9,7 @@
     "dev": "node scripts/serve.mjs",
     "start": "node scripts/serve.mjs",
     "check": "node scripts/check.mjs",
-    "test": "node --import ./scripts/register-three.mjs scripts/check-world.mjs"
+    "test": "node --import ./scripts/register-three.mjs scripts/check-world.mjs",
+    "deploy": "wrangler pages deploy web --project-name grand-theft-horse"
   }
 }
