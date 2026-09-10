@@ -4,6 +4,8 @@ The owner exclusively controls publishing and `git push`. Do not push, open pull
 
 Git remotes, `git init`, and local branch setup are allowed when the owner asks for them. Do not create commits unless the owner asks.
 
+Production is Cloudflare Pages, same as umatamari: feature branch → GitHub PR → merge to `master` deploys. Branch pushes get Pages preview URLs. Do not treat `npm run deploy` as the production path.
+
 # Project facts
 
 - This is Grand Theft Horse: a Midtown Manhattan open world with a three-job wanted loop.

@@ -2,7 +2,9 @@
 
 GTA, but with horses. An open-world Midtown Manhattan browser game: steal the oats, lose the mounted police, get back to the Times Square stable.
 
-This is the playable source. GitHub: https://github.com/maxfarago/grand-theft-horse. The owner pushes.
+Play: [gth.max.horse](https://gth.max.horse)
+
+This is the playable source. GitHub: https://github.com/maxfarago/grand-theft-horse. Feature work goes on a branch. A PR is required to merge to `master`. Cloudflare Pages preview-deploys every branch; merging to `master` deploys production. The Pages project is `grand-theft-horse`.
 
 ## Run locally
 
@@ -64,6 +66,7 @@ This is not a photorealistic reconstruction. Vehicles are stationary except the 
 | `Grand Theft Horse.html` | Original Los Santhos prototype (reference) |
 | `scripts/serve.mjs` | Local development server |
 | `scripts/check-world.mjs` | CPU geometry, movement and mission checks |
+| `wrangler.toml` | Cloudflare Pages project name and `web/` output dir |
 | `docs/` | Map provenance and horse asset notes |
 
 `web/` is authored source, not generated output. There is no framework, bundler, backend, account system or deployment dependency.
