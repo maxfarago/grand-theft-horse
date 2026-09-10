@@ -1,0 +1,14 @@
+{
+  "name": "grand-theft-horse",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "GTA, but with horses. Midtown Manhattan, jobs, and mounted police.",
+  "engines": { "node": ">=20.6.0" },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node --import ./scripts/register-three.mjs scripts/check-world.mjs"
+  }
+}

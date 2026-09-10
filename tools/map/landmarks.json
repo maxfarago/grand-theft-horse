@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Empire State Building",
+    "osmId": "w34633854",
+    "coordinates": [
+      -73.985659,
+      40.748442
+    ],
+    "height": 443.2,
+    "mappedParts": true
+  },
+  {
+    "name": "Chrysler Building",
+    "osmId": "w42500770",
+    "coordinates": [
+      -73.975361,
+      40.751618
+    ],
+    "height": 319.0,
+    "mappedParts": true
+  },
+  {
+    "name": "Flatiron Building",
+    "osmId": "w264768896",
+    "coordinates": [
+      -73.989653,
+      40.741003
+    ],
+    "height": 88.0,
+    "mappedParts": true
+  },
+  {
+    "name": "Grand Central Terminal",
+    "osmId": "w265947358",
+    "coordinates": [
+      -73.977278,
+      40.75265
+    ],
+    "height": 45.8,
+    "mappedParts": false
+  },
+  {
+    "name": "30 Rockefeller Plaza",
+    "osmId": "w487519790",
+    "coordinates": [
+      -73.979636,
+      40.759156
+    ],
+    "height": 260.0,
+    "mappedParts": true
+  },
+  {
+    "name": "Madison Square Garden",
+    "osmId": "w138141251",
+    "coordinates": [
+      -73.993492,
+      40.750529
+    ],
+    "height": 45.0,
+    "mappedParts": true
+  },
+  {
+    "name": "Central Park Tower",
+    "osmId": "w261509934",
+    "coordinates": [
+      -73.981004,
+      40.766418
+    ],
+    "height": 472.0,
+    "mappedParts": true
+  },
+  {
+    "name": "Bryant Park",
+    "osmId": "w22727025",
+    "coordinates": [
+      -73.983546,
+      40.753759
+    ],
+    "height": null,
+    "mappedParts": null
+  },
+  {
+    "name": "Central Park",
+    "osmId": "w427818536",
+    "coordinates": [
+      -73.972122,
+      40.773137
+    ],
+    "height": null,
+    "mappedParts": null
+  },
+  {
+    "name": "One Times Square",
+    "osmId": "w266170825",
+    "coordinates": [
+      -73.986537,
+      40.756197
+    ],
+    "height": 133.6,
+    "mappedParts": true
+  }
+]

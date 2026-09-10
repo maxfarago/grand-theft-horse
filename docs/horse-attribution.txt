@@ -1,0 +1,22 @@
+Horse by Mirada for ROME — 3 Dreams of Black.
+Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported.
+License: https://creativecommons.org/licenses/by-nc-sa/3.0/
+Original asset license: https://raw.githubusercontent.com/dataarts/3-dreams-of-black/master/deploy/files/models/LICENSE.txt
+Three.js distribution: https://github.com/mrdoob/three.js/blob/dev/examples/models/gltf/Horse.glb
+Download: https://threejs.org/examples/models/gltf/Horse.glb
+Google model-viewer corroborating attribution: https://github.com/google/model-viewer/blob/master/packages/modelviewer.dev/ATTRIBUTIONS.md
+
+Downloaded model file unchanged. If model derivatives are distributed, credit the modifications and retain the same asset license. This license requires noncommercial use.
+
+Technical inspection:
+- GLB 2.0; 181,808 bytes; 796 vertices; 984 triangles; 1 mesh; no textures or external dependencies.
+- Vertex colors store a brown coat, dark mane/tail/hooves and eyes. Retain vertex colors.
+- Forward is +Z; up is +Y. For travel toward -Z rotate the parent by PI around Y.
+- Base bounds: min [-28.5, 0.8, -187.4], max [32.6, 183.1, 134.9].
+- Union of all 15 morph targets: min [-33.2, -4.2, -192.4], max [34.6, 207.8, 134.9].
+- Scale 0.01 gives full animated bounds approximately 0.678m wide, 2.12m high, 3.273m long.
+- Root y=0.042 at scale 0.01 makes all gallop phases clear ground y=0.
+- Single clip horse_A_, 1.5 seconds; 15 morph target frames and a repeated closing frame; 0.1 second keys.
+- Loop at 1.0 second using AnimationMixer.clipAction(gltf.animations[0]).setDuration(1).play(), matching official Three.js example.
+- Gallop vertical movement is built into geometry; extra body bouncing is optional and may exaggerate motion.
+- Geometry has POSITION, COLOR_0, TEXCOORD_0 and an index, but no NORMAL attribute or morph normals. Original appearance is faceted. computeVertexNormals gives base smooth normals; proper moving smooth normals require matching normal deltas for every position morph target.

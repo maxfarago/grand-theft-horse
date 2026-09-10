@@ -1,0 +1,14 @@
+[out:json][timeout:180][bbox:40.735,-74.012,40.780,-73.958];
+(
+  way[building];
+  relation[building];
+  way["building:part"];
+  relation["building:part"];
+  way[highway~"^(motorway|motorway_link|trunk|trunk_link|primary|primary_link|secondary|secondary_link|tertiary|tertiary_link|residential|unclassified|living_street|pedestrian|footway|path|cycleway|service)$"];
+  way[leisure=park];
+  relation[leisure=park];
+  way[natural=water];
+  relation[natural=water];
+  way[natural=coastline];
+);
+out body geom;
